@@ -27,7 +27,7 @@
 ## Сборка и запуск
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/ваш-логин/UnitConverter.git
+   git clone https://github.com/Ggoddest/UnitConverter.git
 2. Перейдите в папку проекта:
    ```bash
    cd UnitConverter
@@ -37,17 +37,3 @@
 3. Запустите приложение:
    ```bash
    dotnet run
-
-## Структура проекта
-UnitConverter/
-├── UnitConverter.csproj           # Файл проекта
-├── App.xaml                       # Корневой XAML файл приложения
-├── App.xaml.cs                    # Логика приложения
-├── MainWindow.xaml                # Главное окно приложения
-├── MainWindow.xaml.cs             # Логика главного окна
-├── CustomMessageBox.xaml          # Кастомное диалоговое окно
-├── CustomMessageBox.xaml.cs       # Логика диалогового окна
-├── Unit.cs                        # Базовый класс и реализации единиц измерения
-├── ConversionService.cs           # Сервис конвертации
-├── app_icon2.ico                  # Иконка приложения
-└── screenshot.png                 # Скриншот программы
